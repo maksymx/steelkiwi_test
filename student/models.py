@@ -1,5 +1,4 @@
 from django.db import models
-from group.models import Group
     
 class Student(models.Model):
     name = models.CharField(max_length = 50)
@@ -7,7 +6,7 @@ class Student(models.Model):
     father = models.CharField(max_length = 100)
     birthday = models.DateField()
     student_card = models.CharField(max_length = 50)
-    group_name = models.ForeignKey(Group)
+    group_name = models.ForeignKey('group.Group', blank = True)
     
     class Meta:
         ordering = ['group_name', 'surname']

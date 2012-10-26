@@ -1,7 +1,5 @@
 # Django settings for steelkiwi_test project.
-import os
-PROJECT_FOLDER = os.path.dirname(__file__)
-PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -14,7 +12,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': PROJECT_FOLDER + '/sqlite.db', # Or path to database file if using sqlite3.
+        'NAME': 'sqlite.db', # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -88,7 +86,7 @@ SECRET_KEY = '9#-ife$91l35ebnqzw8owtwy!tq!g3w1r3n7@x%46+ch^u8rp%'
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
-#     'django.template.loaders.eggs.Loader',
+    'django.template.loaders.eggs.Loader',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -98,7 +96,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     # Uncomment the next line for simple clickjacking protection:
-     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
 ROOT_URLCONF = 'steelkiwi_test.urls'
@@ -124,6 +122,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
      'django.contrib.admindocs',
      'student',
+     'group',
 )
 
 # A sample logging configuration. The only tangible logging
