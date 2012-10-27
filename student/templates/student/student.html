@@ -1,0 +1,37 @@
+<html>
+{% load i18n %}
+
+<title>{%trans "Student groups"%}</title>
+
+
+
+{% block content %}
+    <h1>{%trans "Student groups"%}</h1>
+
+    <table border="0" rules="all" cellpadding="10" width='50%'>
+    <thead>
+    <tr style="font-weight: bold;">
+        <td>{%trans "Group"%}</td>
+        <td>{%trans "Chief"%}</td>
+        <td>{%trans "Number of students"%}</td>
+        <td>{%trans "Edit or delete"%}</td>
+    </tr>
+    </thead>
+    <tbody>
+        {% for group in groups %}
+            <tr>
+                <td><a href="#">{{ group.name }}</a></td>
+                <td>{{ group.chief.get_name }}</td>
+                <td>{{ group.students.count }}</td>
+                <td>
+                    <a href="#">{%trans "Edit"%}</a> /
+                    <a href="#">{%trans "Delete"%}</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+    <br>
+   
+{% endblock %}
+</html>

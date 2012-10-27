@@ -6,7 +6,10 @@ class Student(models.Model):
     father = models.CharField(max_length = 100)
     birthday = models.DateField()
     student_card = models.CharField(max_length = 50)
-    group_name = models.ForeignKey('group.Group', blank = True)
+    group_name = models.ForeignKey('group.Group', blank = True, related_name='students')
     
     class Meta:
         ordering = ['group_name', 'surname']
+
+    def get_name(self):
+        return "%s %s %s" % (self.surname, self.name, self.father) 
