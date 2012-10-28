@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{%load i18n%}
+<html>
+<head>
+    <title>{% block title %}Steelkiwi test{% endblock %}</title>
+</head>
+<body>
+
+    {% block auth %}
+        {% if user %}
+            {% if user.is_authenticated %}
+                <p>{%trans "You're logged in as"%} {{ user }}, <a href="/logout/">{%trans "Logout"%}</a></p>
+            {% else %}
+                <p>{%trans "You're not logged in"%}<a href="/login/">{%trans "Login"%}</a></p>
+            {% endif %}
+        {% endif %}
+    {% endblock %}
+
+    {% block content %}content{% endblock %}
+</body>
+</html>

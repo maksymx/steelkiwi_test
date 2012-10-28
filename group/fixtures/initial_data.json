@@ -27,7 +27,7 @@
       "pk": 4, 
       "model": "group.group", 
       "fields": {
-         "chief": 40, 
+         "chief": 38, 
          "name": "\u0417\u0406-31"
       }
    }

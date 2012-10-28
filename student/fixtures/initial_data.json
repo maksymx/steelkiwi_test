@@ -1,0 +1,457 @@
+[   {
+      "pk": 1, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0411\u043E\u0434\u043D\u0430\u0440", 
+         "name": "\u041F\u0435\u0442\u0440\u043E", 
+         "student_card": "523246", 
+         "group_name": 2, 
+         "birthday": "1990-05-05", 
+         "father": "\u041C\u0438\u043A\u043E\u043B\u0430\u0439\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 2, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0412\u0456\u0440\u0430\u0441\u0442\u044E\u043A", 
+         "name": "\u041E\u043B\u0435\u043D\u0430", 
+         "student_card": "833655", 
+         "group_name": 2, 
+         "birthday": "1990-02-19", 
+         "father": "\u041C\u0438\u0445\u0430\u0439\u043B\u0456\u0432\u043D\u0430"
+      }
+   }, 
+   {
+      "pk": 3, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0421\u0432\u0456\u0442\u043B\u0438\u0448\u0438\u043D", 
+         "name": "\u041E\u043A\u0441\u0430\u043D\u0430", 
+         "student_card": "326856", 
+         "group_name": 2, 
+         "birthday": "1990-06-02", 
+         "father": "\u0410\u0440\u0442\u0435\u043C\u0456\u0432\u043D\u0430"
+      }
+   }, 
+   {
+      "pk": 4, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u041C\u0430\u0440\u0442\u0438\u043D\u0438\u0448\u0438\u043D", 
+         "name": "\u041E\u0440\u0435\u0441\u0442", 
+         "student_card": "217161", 
+         "group_name": 4, 
+         "birthday": "1990-03-10", 
+         "father": "\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 5, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0417\u0431\u043E\u0436\u0456\u0432", 
+         "name": "\u0406\u043D\u043D\u043E\u043A\u0435\u043D\u0442\u0456\u0439", 
+         "student_card": "518336", 
+         "group_name": 2, 
+         "birthday": "1990-09-26", 
+         "father": "\u0413\u0440\u0438\u0433\u043E\u0440\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 6, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0421\u043B\u0430\u0431\u0443\u043D\u044C", 
+         "name": "\u0422\u0430\u0440\u0430\u0441", 
+         "student_card": "417377", 
+         "group_name": 2, 
+         "birthday": "1990-07-09", 
+         "father": "\u0406\u0433\u043E\u0440\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 7, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0411\u043E\u0448\u043A\u0456\u0432", 
+         "name": "\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432", 
+         "student_card": "657172", 
+         "group_name": 2, 
+         "birthday": "1990-08-23", 
+         "father": "\u0420\u043E\u043C\u0430\u043D\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 8, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0413\u043D\u0430\u0442\u0435\u0439\u043A\u043E", 
+         "name": "\u041E\u043B\u0435\u043D\u0430", 
+         "student_card": "471377", 
+         "group_name": 4, 
+         "birthday": "1990-03-28", 
+         "father": "\u0412\u0456\u043A\u0442\u043E\u0440\u0456\u0432\u043D\u0430"
+      }
+   }, 
+   {
+      "pk": 9, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0421\u0442\u0440\u0430\u0442\u043E\u0432\u0438\u0447", 
+         "name": "\u041E\u043B\u0435\u0433", 
+         "student_card": "277621", 
+         "group_name": 2, 
+         "birthday": "1990-02-23", 
+         "father": "\u042F\u043A\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 10, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0413\u043B\u0430\u0434\u0435\u0446\u044C", 
+         "name": "\u041E\u0440\u0438\u0441\u044F", 
+         "student_card": "761532", 
+         "group_name": 2, 
+         "birthday": "1990-12-10", 
+         "father": "\u041C\u0438\u043A\u043E\u043B\u0430\u0457\u0432\u043D\u0430"
+      }
+   }, 
+   {
+      "pk": 11, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0411\u0430\u0441\u0430", 
+         "name": "\u041C\u0430\u0440\u0442\u0430", 
+         "student_card": "757652", 
+         "group_name": 1, 
+         "birthday": "1990-01-03", 
+         "father": "\u0406\u0433\u043E\u0440\u0456\u0432\u043D\u0430"
+      }
+   }, 
+   {
+      "pk": 12, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u041F\u0430\u043D\u044C\u043A\u0456\u0432", 
+         "name": "\u0421\u0432\u044F\u0442\u043E\u0441\u043B\u0430\u0432", 
+         "student_card": "142765", 
+         "group_name": 1, 
+         "birthday": "1990-06-07", 
+         "father": "\u0422\u0430\u0440\u0430\u0441\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 14, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u041A\u0440\u0438\u0432\u0443\u043B\u044F\u043A", 
+         "name": "\u0422\u0430\u0440\u0430\u0441", 
+         "student_card": "123168", 
+         "group_name": 1, 
+         "birthday": "1990-05-25", 
+         "father": "\u0412\u0430\u0441\u0438\u043B\u044C\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 13, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0412\u0438\u0448\u0435\u043D\u0441\u044C\u043A\u0438\u0439", 
+         "name": "\u0412\u0456\u043A\u0442\u043E\u0440", 
+         "student_card": "967156", 
+         "group_name": 4, 
+         "birthday": "1990-01-07", 
+         "father": "\u0406\u0433\u043E\u0440\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 16, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u041C\u0435\u0440\u0437\u043B\u044F\u043A", 
+         "name": "\u041E\u043B\u0435\u043D\u0430", 
+         "student_card": "583128", 
+         "group_name": 1, 
+         "birthday": "1990-10-17", 
+         "father": "\u0421\u0442\u0430\u043D\u0456\u0441\u043B\u0430\u0432\u0456\u0432\u043D\u0430"
+      }
+   }, 
+   {
+      "pk": 15, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0416\u043C\u0443\u0442", 
+         "name": "\u0410\u043D\u0434\u0440\u0456\u0439", 
+         "student_card": "378266", 
+         "group_name": 1, 
+         "birthday": "1990-01-15", 
+         "father": "\u041F\u0430\u043D\u0430\u0441\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 17, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0422\u0440\u043E\u0446\u044C", 
+         "name": "\u041D\u0430\u0442\u0430\u043B\u044F", 
+         "student_card": "661368", 
+         "group_name": 1, 
+         "birthday": "1990-02-08", 
+         "father": "\u0412\u0456\u043A\u0442\u043E\u0440\u0456\u0432\u043D\u0430"
+      }
+   }, 
+   {
+      "pk": 18, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0410\u043D\u0434\u0440\u0435\u0439\u043A\u043E", 
+         "name": "\u041E\u0440\u0435\u0441\u0442", 
+         "student_card": "653422", 
+         "group_name": 1, 
+         "birthday": "1990-11-25", 
+         "father": "\u0421\u0442\u0430\u043D\u0456\u0441\u043B\u0430\u0432\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 19, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0416\u043C\u0443\u0440", 
+         "name": "\u041E\u043A\u0441\u0430\u043D\u0430", 
+         "student_card": "315647", 
+         "group_name": 1, 
+         "birthday": "1990-09-24", 
+         "father": "\u0419\u043E\u0441\u0438\u043F\u0456\u0432\u043D\u0430"
+      }
+   }, 
+   {
+      "pk": 20, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u041B\u0438\u0447\u043A\u043E\u0432\u0438\u0441\u044C\u043A\u0438\u0439", 
+         "name": "\u041C\u0430\u043A\u0441\u0438\u043C", 
+         "student_card": "572213", 
+         "group_name": 4, 
+         "birthday": "1990-02-18", 
+         "father": "\u0410\u043D\u0434\u0440\u0456\u0439\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 21, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u041B\u043E\u0437\u0438\u043D\u0441\u044C\u043A\u0438\u0439", 
+         "name": "\u0422\u0430\u0440\u0430\u0441", 
+         "student_card": "313783", 
+         "group_name": 1, 
+         "birthday": "1990-08-05", 
+         "father": "\u0410\u043D\u0442\u043E\u043D\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 22, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0413\u0430\u0432\u0440\u0438\u043B\u044F\u043A", 
+         "name": "\u0406\u0440\u0438\u043D\u0430", 
+         "student_card": "138148", 
+         "group_name": 3, 
+         "birthday": "1990-04-24", 
+         "father": "\u0412\u0456\u043A\u0442\u043E\u0440\u0456\u0432\u043D\u0430"
+      }
+   }, 
+   {
+      "pk": 23, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0428\u0438\u043F\u0456\u0442", 
+         "name": "\u041C\u0430\u0440\u0456\u044F", 
+         "student_card": "568285", 
+         "group_name": 3, 
+         "birthday": "1990-05-28", 
+         "father": "\u0412\u0430\u0441\u0438\u043B\u0456\u0432\u043D\u0430"
+      }
+   }, 
+   {
+      "pk": 24, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0414\u0443\u0431\u0435\u043D\u044C", 
+         "name": "\u0422\u0435\u0442\u044F\u043D\u0430", 
+         "student_card": "326825", 
+         "group_name": 3, 
+         "birthday": "1990-08-03", 
+         "father": "\u0412\u0456\u043A\u0442\u043E\u0440\u0456\u0432\u043D\u0430"
+      }
+   }, 
+   {
+      "pk": 26, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u041F\u0440\u0438\u0441\u0442\u0443\u043F\u044E\u043A", 
+         "name": "\u041E\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440", 
+         "student_card": "671738", 
+         "group_name": 3, 
+         "birthday": "1990-01-03", 
+         "father": "\u041C\u0430\u043A\u0441\u0438\u043C\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 25, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0412\u0435\u043D\u0446\u0438\u043A\u0456\u0432\u0441\u044C\u043A\u0438\u0439", 
+         "name": "\u0411\u043E\u0440\u0438\u0441", 
+         "student_card": "514376", 
+         "group_name": 3, 
+         "birthday": "1990-08-23", 
+         "father": "\u041C\u0438\u0445\u0430\u0439\u043B\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 27, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0416\u0430\u0431\u043E\u0454\u0434\u043E\u0432", 
+         "name": "\u0413\u0435\u043D\u043D\u0430\u0434\u0456\u0439", 
+         "student_card": "173771", 
+         "group_name": 3, 
+         "birthday": "1990-05-24", 
+         "father": "\u0414\u043C\u0438\u0442\u0440\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 28, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u041A\u043E\u043C\u0456\u0441\u0430\u0440", 
+         "name": "\u0406\u0433\u043E\u0440", 
+         "student_card": "374768", 
+         "group_name": 4, 
+         "birthday": "1990-11-22", 
+         "father": "\u0412\u0430\u0441\u0438\u043B\u044C\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 29, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u041B\u0443\u0447\u0438\u0446\u044C\u043A\u0438\u0439", 
+         "name": "\u0404\u0432\u0433\u0435\u043D", 
+         "student_card": "321551", 
+         "group_name": 3, 
+         "birthday": "1990-12-22", 
+         "father": "\u0412\u0430\u0441\u0438\u043B\u044C\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 30, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u041C\u0430\u0439\u0434\u0430\u043D\u0438\u043A", 
+         "name": "\u0412\u0456\u0442\u0430\u043B\u0456\u0439", 
+         "student_card": "433822", 
+         "group_name": 3, 
+         "birthday": "1990-02-01", 
+         "father": "\u0413\u0440\u0438\u0433\u043E\u0440\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 31, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u041D\u0435\u0442\u044F\u0436\u0435\u043D\u043A\u043E", 
+         "name": "\u0412\u0430\u0441\u0438\u043B\u044C", 
+         "student_card": "158834", 
+         "group_name": 3, 
+         "birthday": "1990-06-22", 
+         "father": "\u0417\u0430\u0445\u0430\u0440\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 32, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u041F\u0435\u0440\u0446\u0435\u0432\u0430", 
+         "name": "\u0422\u0435\u0442\u044F\u043D\u0430", 
+         "student_card": "121283", 
+         "group_name": 3, 
+         "birthday": "1990-02-15", 
+         "father": "\u041E\u043B\u0435\u043A\u0441\u0456\u0457\u0432\u043D\u0430"
+      }
+   }, 
+   {
+      "pk": 33, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0411\u043E\u043B\u044C\u0448\u043E\u0432\u0430", 
+         "name": "\u041E\u043B\u0435\u043D\u0430", 
+         "student_card": "481225", 
+         "group_name": 3, 
+         "birthday": "1990-03-06", 
+         "father": "\u0412\u0430\u0441\u0438\u043B\u0456\u0432\u043D\u0430"
+      }
+   }, 
+   {
+      "pk": 34, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0426\u0438\u043C\u0431\u0430\u043B\u044E\u043A", 
+         "name": "\u0412\u0456\u0442\u0430\u043B\u0456\u0439", 
+         "student_card": "657568", 
+         "group_name": 4, 
+         "birthday": "1990-05-24", 
+         "father": "\u0406\u0432\u0430\u043D\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 35, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0424\u043E\u043C\u0456\u043D", 
+         "name": "\u041F\u0435\u0442\u0440\u043E", 
+         "student_card": "935328", 
+         "group_name": 3, 
+         "birthday": "1990-02-22", 
+         "father": "\u0414\u043C\u0438\u0442\u0440\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 36, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u041F\u0456\u0448\u0430\u043A", 
+         "name": "\u0412\u0430\u0441\u0438\u043B\u044C", 
+         "student_card": "611731", 
+         "group_name": 3, 
+         "birthday": "1990-05-19", 
+         "father": "\u041F\u0430\u0432\u043B\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 37, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u0420\u0435\u0437\u043D\u0456\u043A\u043E\u0432", 
+         "name": "\u041E\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440", 
+         "student_card": "766624", 
+         "group_name": 4, 
+         "birthday": "1990-10-16", 
+         "father": "\u0413\u0440\u0438\u0433\u043E\u0440\u043E\u0432\u0438\u0447"
+      }
+   }, 
+   {
+      "pk": 38, 
+      "model": "student.student", 
+      "fields": {
+         "surname": "\u042F\u0446\u0443\u043A", 
+         "name": "\u042E\u0440\u0456\u0439", 
+         "student_card": "174427", 
+         "group_name": 4, 
+         "birthday": "1990-01-26", 
+         "father": "\u0412\u0430\u0441\u0438\u043B\u044C\u043E\u0432\u0438\u0447"
+      }
+   }
+]
