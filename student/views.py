@@ -14,7 +14,7 @@ def studentlist(request, group_id):
                               context_instance=RequestContext(request))
     
 @login_required(login_url='/login/')
-def manage_student(request, student_id=None, group_id=None):
+def edit_student(request, student_id=None, group_id=None):
     if student_id:
         student = get_object_or_404(Student, pk=student_id)
     else:

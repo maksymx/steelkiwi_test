@@ -13,3 +13,11 @@ class Student(models.Model):
 
     def get_name(self):
         return "%s %s %s" % (self.surname, self.name, self.father) 
+    
+    @models.permalink
+    def get_edit_url(self):
+        return  'edit_student', (self.pk, )
+
+    @models.permalink
+    def get_delete_url(self):
+        return 'delete_student', (self.pk, )

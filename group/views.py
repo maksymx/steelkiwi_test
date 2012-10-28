@@ -13,7 +13,7 @@ def grouplist(request):
                               context_instance=RequestContext(request))
     
 @login_required(login_url='/login/')
-def manage_group(request, group_id=None):
+def edit_group(request, group_id=None):
 
     if group_id:
         group = get_object_or_404(Group, pk=group_id)

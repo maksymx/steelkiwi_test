@@ -1,37 +1,38 @@
-<html>
+{% extends 'base.html' %}
 {% load i18n %}
 
-<title>{%trans "Student groups"%}</title>
-
-
+{% block title %}{%trans "Group"%} {{ group.title }}{% endblock %}
 
 {% block content %}
-    <h1>{%trans "Student groups"%}</h1>
+    <a href="{% url index %}">{%trans "Go to index"%} </a>
+    <h1>{%trans "Group"%} {{ group.title }}</h1>
 
-    <table border="0" rules="all" cellpadding="10" width='50%'>
-    <thead>
-    <tr style="font-weight: bold;">
-        <td>{%trans "Group"%}</td>
-        <td>{%trans "Chief"%}</td>
-        <td>{%trans "Number of students"%}</td>
-        <td>{%trans "Edit or delete"%}</td>
-    </tr>
-    </thead>
-    <tbody>
-        {% for group in groups %}
-            <tr>
-                <td><a href="#">{{ group.name }}</a></td>
-                <td>{{ group.chief.get_name }}</td>
-                <td>{{ group.students.count }}</td>
+    <table border="0" rules="all" cellpadding="10" cellspacing="0" width="800">
+        <thead>
+            <tr style="font-weight: bold;">
+                <td>{%trans "Student card"%} </td>
+                <td>{%trans "Surname"%} </td>
+                <td>{%trans "Name"%} </td>
+                <td>{%trans "Father"%} </td>
+                <td>{%trans "Birthday"%} </td>
+                <td>{%trans "Edit or delete"%} </td>
+            </tr>
+        </thead>
+        <tbody>
+        {% for student in students %}
+            <tr {% ifequal student group.chief %}style="font-weight: bold;"{% endifequal %} >
+                <td>{{ student.student_card }} </td>
+                <td>{{ student.surname }}</td>
+                <td>{{ student.name }}</td>
+                <td>{{ student.father }}</td>
+                <td>{{ student.birthday|date:"d.m.Y" }}</td>
                 <td>
-                    <a href="#">{%trans "Edit"%}</a> /
-                    <a href="#">{%trans "Delete"%}</a>
+                    <a href="{{ student.get_edit_url }}">{%trans "Edit"%}</a>/
+                    <a href="{{ student.get_delete_url }}">{%trans "Delete"%}</a>
                 </td>
             </tr>
         {% endfor %}
-    </tbody>
+        </tbody>
     </table>
-    <br>
-   
+    <a href="{% url add_student_to_group group_id=group.pk %}">Добавить студента</a>
 {% endblock %}
-</html>
