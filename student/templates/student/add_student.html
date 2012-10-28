@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% if student_id %}
+        {%trans "Editing"%}
+    {% else %}
+        {%trans "Adding"%}
+    {% endif %} {%trans "student"%}
+{% endblock %}
+
+{% block content %}
+    <a href="{% url index %}">{%trans "Go to index"%}</a>
+    <h1>{% if student_id %}{%trans "Editing"%}{% else %}{%trans "Adding"%}{% endif %} {%trans "student"%}</h1>
+    <form action="{% if student_id %}{% url edit_student student_id %}{% else %}{% url add_student %}{% endif %}" method="POST">
+        {% csrf_token %}
+        <table style="text-align: left;"  rules="rows" cellpadding="10">
+            {{ form.as_table }}
+        </table>
+        <input type="submit" value='{%trans "Save"%}'>
+    </form>
+{% endblock %}

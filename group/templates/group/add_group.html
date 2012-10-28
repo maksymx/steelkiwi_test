@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{%load i18n%}
+
+{% block title %}
+    {% if group_id %}
+        {%trans "Editing"%}
+    {% else %}
+        {%trans "Adding"%}
+    {% endif %}{%trans "groups"%}
+{% endblock %}
+
+{% block content %}
+    <a href="{% url index %}">{%trans "Go to index"%}</a>
+    <h1>{% if group_id %}{%trans "Editing"%}{% else %}{%trans "Adding"%}{% endif %} {%trans "groups"%}</h1>
+    <form action="{% if group_id %}{% url edit_group group_id %}{% else %}{% url add_group %}{% endif %}" method="POST">
+        {% csrf_token %}
+        <table rules="rows" cellpadding="10" style="text-align: left;">
+            {{ form.as_table }}
+        </table>
+        <input type="submit" value='{%trans "Save"%}'>
+    </form>
+{% endblock %}
