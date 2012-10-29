@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{%load i18n%}
+
+{% block title %}{%trans "Deleting of"%} 
+    {% if instance_type == 1 %}
+        {%trans "student"%}
+    {% else %}
+        {%trans "group"%}
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <a href="{% url index %}">{%trans "Go to index"%}</a>
+    <h1>{%trans "Deleting of"%}  {% if instance_type == 1 %}{%trans "student"%}{% else %}{%trans "group"%}{% endif %} [ {{ instance }} ]</h1>
+    <form method="POST" action="{% if instance_type == 1 %}{% url delete_student instance_id=instance_id %}{% else %}{% url delete_group instance_id=instance_id %}{% endif %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value='{%trans "Accept"%}'>
+    </form>
+{% endblock %}
